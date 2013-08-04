@@ -8,7 +8,7 @@ Example
 ```
 npm install Acconut/scrib-mail
 ```
-```
+```javascript
 var Scrib = require("scrib"),
     logger = new Scrib({
         "mail": {
@@ -37,7 +37,7 @@ Options
 * `to`: A single e-mail address or an array containing them where to send the mails
 * `from`: A object to set up SMTP ([see here](https://github.com/andris9/Nodemailer#setting-up-smtp))
 * `from.address`: The e-mail address which sends the mail
-* `format = null`: A function which formats the mail ([see code](https://github.com/Acconut/scrib-mail/blob/master/lib/adaper.js#L5))
+* `format = null`: A function which formats the mail ([see code](https://github.com/Acconut/scrib-mail/blob/master/lib/adapter.js#L5-L12))
 
 Testing
 ---
