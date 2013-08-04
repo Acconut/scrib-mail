@@ -1,0 +1,16 @@
+{
+    "name": "scrib-mail",
+    "version": "0.0.0-dev",
+    "description": "An adapter for Scrib to notify you about your logs using mails.",
+    
+    "main": "lib/adapter.js",
+    
+    "dependencies": {
+        "nodemailer": "0.5.x"
+    },
+    
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/Acconut/scrib-mail.git"
+    }
+}
